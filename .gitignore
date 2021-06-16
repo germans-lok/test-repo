@@ -83,4 +83,7 @@ modules.xml
 .idea/misc.xml
 *.ipr
 
+# i18n ally plugin
+.idea/i18nally.xml
+
 # End of https://www.toptal.com/developers/gitignore/api/intellij+iml
