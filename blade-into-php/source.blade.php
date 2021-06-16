@@ -1,0 +1,1 @@
+© {{ now()->year }} Awesome app

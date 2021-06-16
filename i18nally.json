@@ -1,0 +1,36 @@
+{
+  "configFormatVersion": "100",
+  "profiles": [{
+    "id": "939e582f-2400-4b66-9dd2-2d26355b0b40",
+    "name": "Default",
+    "keyNamingPattern": "DEFAULT_PATTERN",
+    "sink": {
+      "id": "1a09e79e-9c3d-4396-8e0d-a07ebfa4e8f0",
+      "type": "singleFile",
+      "pathToFile": "$PROJECT_DIR$/blade-into-php/messages.php",
+      "fileType": "php",
+      "nestingType": "DISABLED",
+      "placeholderFormatterName": "Symfony replacement"
+    },
+    "sources": [{
+      "id": "9fdb4152-f983-4ca3-9ce0-09e172bc54f4",
+      "type": "blade",
+      "scopeName": "Project Files",
+      "scopePattern": "",
+      "functionName": "trans",
+      "argumentsTemplate": "'%namespace%.%key%', %map%",
+      "inlineTagNames": ["a", "abbr", "acronym", "b", "bdi", "bdo", "big", "br", "cite", "code", "data", "del", "dfn", "em", "i", "img", "input", "ins", "kbd", "label", "mark", "meter", "output", "progress", "q", "ruby", "s", "samp", "slot", "small", "span", "strong", "sub", "sup", "time", "u", "tt", "var", "wbr"],
+      "translatableAttributeNames": ["title", "alt", "placeholder", "label", "aria-label"],
+      "skipDefaultNamespace": false
+    }]
+  }],
+  "ignores": {
+    "filesInProject": [],
+    "ignoredArrayKeys": [],
+    "unignoredFunctionArguments": {},
+    "unignoredFunctionNames": [],
+    "valuesInFile": {},
+    "valuesInProject": []
+  },
+  "skipFrameWorkDetection": false
+}
